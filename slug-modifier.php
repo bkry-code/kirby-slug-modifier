@@ -1,7 +1,7 @@
 <?php
 function PluginSlugModifier() {
 	$items = array();
-	$root = kirby()->roots()->plugins() . DS . 'slug-replace';
+	$root = kirby()->roots()->plugins() . DS . 'slug-modifier';
 	$dir = $root . DS  . 'set';
 	$file = $dir . DS . c::get('plugin.slug.modifier.set') . '.php';
 	$replaces = c::get('plugin.slug.modifier.replace.items');
