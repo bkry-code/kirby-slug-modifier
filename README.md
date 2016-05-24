@@ -21,6 +21,8 @@ This plugin makes it possible to change matches inside the slug.
 
 ### Replace items
 
+![](docs/replace.gif)
+
 To replace items, add an array in an option, like this:
 
 ```php
@@ -32,6 +34,8 @@ c::set('plugin.slug.modifier.replace.items', array(
 
 ### Remove items
 
+![](docs/remove.gif)
+
 To remove item, add an array in an option, like this:
 
 ```php
@@ -39,6 +43,8 @@ c::set('plugin.slug.modifier.remove.items', array('aaa', 'bbb'));
 ```
 
 ### Set
+
+![](docs/set.gif)
 
 There are something called sets included in the plugin. They are predefined and follow the plugin.
 
