@@ -19,11 +19,6 @@ This plugin makes it possible to change matches inside the slug.
 
 ## Options
 
-```php
-c::get('plugin.slug.modifier.items');
-c::set('plugin.slug.modifier.set');
-```
-
 ### Replace items
 
 To replace items, add an array in an option, like this:
