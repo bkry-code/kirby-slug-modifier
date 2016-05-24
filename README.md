@@ -25,7 +25,7 @@ To replace items, add an array in an option, like this:
 
 ```php
 c::set('plugin.slug.modifier.replace.items', array(
-	'test' => 'haha'
+	'test' => 'haha',
 	'lol' => 'laugh'
 ));
 ```
